@@ -1,2 +1,3 @@
 # Innovation_sprint_astropy
-Learning more about astropy library
+
+Innovation sprint where I did as many `astropy` tutorials as I can.
