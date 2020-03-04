@@ -1,4 +1,4 @@
-# Innovation_sprint_astropy
+# Innovation sprint: Learning `astropy` package
 
 Innovation sprint where I did as many `astropy` tutorials as I can.
 
@@ -20,4 +20,7 @@ The [Examples](https://docs.astropy.org/en/stable/generated/examples/index.html)
     - FIRST (high resolution)
     - NVSS (lower resolution)
 
-An image of the same object in the two surveys looks very different, one would swear they are different objects. Even the flux density measurements of the two look look different. To correct for this, we use convolution. The differences are caused mainly by the difference in the resolution. 
+An image of the same object in the two surveys looks very different, one would swear they are different objects. Even the flux density measurements of the two look look different. To correct for this, we use convolution. The differences are caused mainly by the difference in the resolution. If we make the resolutions the same, we could potentially make the two images close to being the same.
+
+## [Astropy `Quantities` & `Units` for astrophysical calculations](http://learn.astropy.org/rst-tutorials/quantities.html?highlight=filtertutorials%20filterradioastronomy)
+  - Here I use another useful package in `astropy` used to do calculations of physical quantities and interprete their physical meaning.
