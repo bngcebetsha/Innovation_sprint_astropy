@@ -22,5 +22,13 @@ The [Examples](https://docs.astropy.org/en/stable/generated/examples/index.html)
 
 An image of the same object in the two surveys looks very different, one would swear they are different objects. Even the flux density measurements of the two look look different. To correct for this, we use convolution. The differences are caused mainly by the difference in the resolution. If we make the resolutions the same, we could potentially make the two images close to being the same.
 
-## [Astropy `Quantities` & `Units` for astrophysical calculations](http://learn.astropy.org/rst-tutorials/quantities.html?highlight=filtertutorials%20filterradioastronomy)
+## [Astropy Quantities & Units for astrophysical calculations](http://learn.astropy.org/rst-tutorials/quantities.html?highlight=filtertutorials%20filterradioastronomy)
   - Here I use another useful package in `astropy` used to do calculations of physical quantities and interprete their physical meaning.
+  - We can do arithmetic and plot Quantities, do unit conversions and manipulation
+  - Can import physical constants such as: `h`, `k_b` etc. Using `from astropy.constants import *`
+  - `Quantity` objects inherit and extend `numpy.ndarrays`, we can perform numpy functions on them.
+  - We can convert e.g `parsec` to `km` using the `.to()` attribute
+  - Always treat `Quantity` objects as `numpy` arrays as opposed to `math.` objects.
+  - Did a tutorial where I calculate the velocity of the earth around the sun given its distance from the sun, using Kepler's law.
+  - Another exercise was to calculate the mass of a molecular cloud of cold H2 gas(the gas that collapses to become stars). This is not detectable with telescopes but we can infer it by oberving CO. We calculate the column density as a way to estimate the mass of the cloud using physics. The image below is synthetic data of the cloud plotted in spacial coordinates and the third axis is the intensity distribution/brightness temperature(what the telescope measures).
+  ![alt text](CO_cloud_intensity.png)
