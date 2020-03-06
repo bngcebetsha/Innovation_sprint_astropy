@@ -31,4 +31,5 @@ An image of the same object in the two surveys looks very different, one would s
   - Always treat `Quantity` objects as `numpy` arrays as opposed to `math.` objects.
   - Did a tutorial where I calculate the velocity of the earth around the sun given its distance from the sun, using Kepler's law.
   - Another exercise was to calculate the mass of a molecular cloud of cold H2 gas(the gas that collapses to become stars). This is not detectable with telescopes but we can infer it by oberving CO. We calculate the column density as a way to estimate the mass of the cloud using physics. The image below is synthetic data of the cloud plotted in spacial coordinates and the third axis is the intensity distribution/brightness temperature(what the telescope measures).
+  
   ![alt text](CO_cloud_intensity.png)
