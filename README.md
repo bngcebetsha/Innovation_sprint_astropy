@@ -36,4 +36,5 @@ An image of the same object in the two surveys looks very different, one would s
   
   - See [Exercises](http://learn.astropy.org/rst-tutorials/quantities.html?highlight=filtertutorials%20filterradioastronomy)
   
-  -
+  - @mmphego shared: [astronomy software](https://github.com/orbitalindex/awesome-space)
+    - `astropy` is one among many
