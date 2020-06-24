@@ -46,5 +46,7 @@ An image of the same object in the two surveys looks very different, one would s
     - CI done with [Travis](https://travis-ci.org/)
     - Documentation made easy with [Sphinx](https://www.sphinx-doc.org/en/master/)
     - There is a new labeling system where issues are classified according to `Effort`. This helps contributors find suitable starting points.
-               - [Novice](https://github.com/search?p=2&q=label%3Apackage-novice&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93), see [more](https://www.astropy.org/contribute.html#code)
-               - [Effort-low](https://github.com/search?p=2&q=label%3Apackage-novice+label%3Aeffort-low&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93)
+    - [Novice](https://github.com/search?p=2&q=label%3Apackage-novice&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93), see [more](https://www.astropy.org/contribute.html#code)
+         - I looked at the example of making `pytest-doctest` to run the code snippets in the doctrings [issue9484](https://github.com/astropy/astropy/issues/9485)
+    - [Effort-low](https://github.com/search?p=2&q=label%3Apackage-novice+label%3Aeffort-low&ref=searchresults&state=open&type=Issues&utf8=%E2%9C%93)
+
