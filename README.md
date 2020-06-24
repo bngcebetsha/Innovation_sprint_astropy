@@ -38,3 +38,10 @@ An image of the same object in the two surveys looks very different, one would s
   
   - @mmphego shared: [astronomy software](https://github.com/orbitalindex/awesome-space)
     - `astropy` is one among many
+
+## [Part 2 of innovation] (https://docs.astropy.org/en/stable/)
+  - I am reading the documentation with the aim to find how a developer can make contributions. I have found the procedure [here](https://docs.astropy.org/en/stable/development/vision.html) and [code](https://www.astropy.org/contribute.html#code)
+    - [Join dev email-list](https://groups.google.com/forum/#!forum/astropy-dev)
+    - The [project](https://github.com/astropy?type=source) which contains the repos to `astropy package` and the `affiliated packages`, which are mainly intended for future integration in the core package
+    - CI done with [Travis](https://travis-ci.org/)
+    - Documentation made easy with [Sphinx](https://www.sphinx-doc.org/en/master/)
